@@ -452,7 +452,7 @@
                 <mxCell id="JzVeKPisGOl--7V22q0f-15" value="- end_date: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
                     <mxGeometry y="104" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="JzVeKPisGOl--7V22q0f-16" value="- reviews: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
+                <mxCell id="JzVeKPisGOl--7V22q0f-19" value="- picture: varchar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
                     <mxGeometry y="130" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="JzVeKPisGOl--7V22q0f-17" value="- available: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
@@ -461,7 +461,7 @@
                 <mxCell id="JzVeKPisGOl--7V22q0f-18" value="- capaciy: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
                     <mxGeometry y="182" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="JzVeKPisGOl--7V22q0f-19" value="- price: decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
+                <mxCell id="4OotDi0c2yeb4k3szhKw-1" value="- price: decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
                     <mxGeometry y="208" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="JzVeKPisGOl--7V22q0f-20" value="- fk_trainer_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JzVeKPisGOl--7V22q0f-11">
@@ -511,8 +511,9 @@
                 </mxCell>
                 <mxCell id="JzVeKPisGOl--7V22q0f-36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JzVeKPisGOl--7V22q0f-1" source="JzVeKPisGOl--7V22q0f-20" target="JzVeKPisGOl--7V22q0f-28">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="340" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="550" y="317"/>
+                            <mxPoint x="550" y="340"/>
                             <mxPoint x="550" y="459"/>
                         </Array>
                     </mxGeometry>
